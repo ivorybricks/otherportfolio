@@ -1,0 +1,115 @@
+/*body {
+    padding-top: 10%;
+}*/
+
+#aboutm, #portfolio, #gtouch, #web {
+    padding-top: 10%;
+    margin-top: -10%;
+}
+#aboutm {
+    margin-top: 50px;
+}
+.navbar-default {
+    background-color: #9f0207;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+.navbar-default .navbar-nav>li>a {
+  color:#FFFFFF;
+}
+
+.lc {
+
+    font-family: "Playfair Display SC";
+    font-size: 6rem;
+}
+.lc:hover {
+    color: #000000;
+}
+.categories {
+    font-family: "Playfair Display";
+    font-size: 1.8rem;
+
+}
+.aboutm {
+    margin-top: 10%;
+    color: #000000;
+    font-family: "Playfair Display";
+}
+.portfolio {
+    margin-bottom: 5%;
+}
+.ahead {
+    font-size: 3rem;
+    text-align: left;
+}
+.gtouch {
+    align-content: center;
+}
+.phead, .thead, .whead {
+    text-align: center;
+    color: #97938D;
+    font-family: "Oswald";
+    font-size: 6rem;
+    font-weight: bold;
+}
+.web {
+    color: #000000;
+}
+.wells {
+    background-color: rgb(227, 177, 181);
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.project {
+    background-color: #BBC1C0;
+    border-color: #FFFFFF;
+    text-align: center;
+    font-family: "Fauna One";
+    margin-bottom: 7%;
+    font-size: 2rem;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.preview {
+    margin-bottom: 5%;
+}
+.submit {
+    background-color: #ffbf80;
+}
+fieldset {
+    margin-top: 2%;
+}
+textarea:focus, input:focus, input[type]:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus {
+    border-color: rgba(126, 239, 104, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+}
+.linkedin, .github, .freecodecamp {
+    font-size: 2rem;
+}
+.linkedimg, .gitimg, .campimg {
+    width: 50%;
+    margin-right: 5%;
+}
+.formparent {
+    margin: auto;
+    width: 30%;
+}
+
+#name, #email, #subject, #message {
+  font-family:"Oswald";
+}
+.submit{
+  font-family:"Oswald";
+  font-weight:bold;
+  font-size:2.5rem;
+
+}

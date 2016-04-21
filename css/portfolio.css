@@ -1,8 +1,11 @@
 /*body {
     padding-top: 10%;
 }*/
-
-#aboutm, #portfolio, #gtouch, #web {
+/*#aboutm, #portfolio, #gtouch, #web {
+    padding-top: 10%;
+    margin-top: -10%;
+}*/
+#aboutm, #portfolio,  #web {
     padding-top: 10%;
     margin-top: -10%;
 }
@@ -13,6 +16,7 @@
     background-color: #8e8f27;
     background-image: none;
     background-repeat: no-repeat;
+    padding-right:3%;
 }
 .navbar-default .navbar-nav>li>a {
     color: #d9de5e;
@@ -46,6 +50,11 @@
     font-family: "Playfair Display";
     font-size: 1.8rem;
 }
+.initials{
+  font-weight:bold;
+  
+
+}
 .aboutm {
     margin-top: 10%;
 
@@ -54,20 +63,21 @@
 }
 
 .portfolio {
-    margin-bottom: 5%;
+    margin-bottom: 40%;
 }
 
 .ahead {
     font-size: 3rem;
     text-align: left;
     color: #008d92;
-    font-family:"Lato";
+    font-family:"Proxima Nova";
+    line-height: 5rem;
 }
-.gtouch {
+/*.gtouch {
     align-content: center;
     margin-bottom: 35%;
 }
-.submitbtn {}
+.submitbtn {}*/
 .phead, .thead, .whead {
     text-align: center;
     font-family: "Oswald";
@@ -93,6 +103,7 @@
     padding-top: 7%;
     padding-bottom: 2%;
     margin-bottom: 20%;
+    border-radius: 1%;
 }
 .project {
     background-color: #7dc3cb;
@@ -117,16 +128,12 @@
 fieldset {
     margin-top: 2%;
 }
-/*textarea:focus, .uneditable-input:focus, input:focus, input[type]:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus {
-    border-color: rgba(126, 239, 104, 0.8);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
-    outline: 0 none;
-}*/
-textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .message:focus {
+
+/*textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .message:focus {
     border-color: rgba(139, 74, 104,1);
     box-shadow: 0 1px 1px rgba(218, 173, 171, 0.3) inset, 0 0 8px rgba(218, 173, 171, 0.62);
     outline: 0 none;
-}
+}*/
 .linkedimg, .gitimg, .campimg {
     width: 10%;
     font-size: 2rem;
@@ -172,22 +179,6 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .messag
     -o-transition: opacity .3s ease-out;
 }
 
-/*.textdiv{
-  display:none;
-}*/
-/*.linkedimg:hover  .linkedtext {
-color: white;
-
-}*/
-
-
-/*.linkedtext{
-color: rgb(22,134,176);
-
-}*/
-/*.linkedimg:hover + .textdiv{
-  display:inline;
-}*/
 .git{
   text-align: center;
 }

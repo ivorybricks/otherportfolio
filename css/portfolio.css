@@ -38,12 +38,12 @@
     border-color: white;
     background-color: #d9de5e;
 }
-.lc {
+.brand {
     color: #FFFFFF;
     font-family: "Playfair Display SC";
     font-size: 6rem;
 }
-.lc:hover {
+.brand:hover {
     color: #000000;
 }
 .categories {

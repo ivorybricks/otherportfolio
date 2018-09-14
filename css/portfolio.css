@@ -118,9 +118,10 @@
     margin-right: auto;
 }
 .profile {
-    display: inline-block;
+/*     display: inline-block;
     vertical-align: middle;
-    float: none;
+    float: none; */
+    width: 30%;
 }
 .preview {
     margin-bottom: 5%;
